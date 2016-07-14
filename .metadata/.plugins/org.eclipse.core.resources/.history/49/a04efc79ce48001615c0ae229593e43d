@@ -1,0 +1,13 @@
+package shangru.miniproject.webcrawler;
+
+public class WebCrawler {
+	
+	public static WebCrawlerDBO crawlerDBO = new WebCrawlerDBO();
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		crawlerDBO.runSQL("TRUNCATE Record;");
+		processPage("http://www.duke.edu");
+	}
+
+}

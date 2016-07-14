@@ -1,0 +1,17 @@
+package shangru.miniproject.webcrawler;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class WebCrawlerDBO {
+	
+	public Connection conn = null;
+	
+	public WebCrawlerDBO() {
+		try {
+			Class.forName("");
+		} catch (SQLException e) {
+			// TODO: handle exception
+		}
+	}
+}

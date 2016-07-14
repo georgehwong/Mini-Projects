@@ -1,0 +1,7 @@
+package shangru.miniproject.webcrawler;
+
+import java.sql.Connection;
+
+public class WebCrawlerDBO {
+	public Connection conn = null;
+}
